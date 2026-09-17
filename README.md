@@ -131,11 +131,11 @@ transactions
 ### 1. Persiapan
 - [✅] Setup project Laravel baru
 - [✅] Setup database & koneksi
-- [ ] Buat migration: `warehouses`, `departments`, `items`, `transactions` (kolom `role` & `warehouse_id` ditambahkan ke `users` bawaan)
-- [ ] Buat seeder: `warehouses` (General Store), `departments` (daftar departemen hotel)
+- [✅] Buat migration: `warehouses`, `departments`, `items`, `transactions` (kolom `role` & `warehouse_id` ditambahkan ke `users` bawaan)
+- [✅] Buat seeder: `warehouses` (General Store), `departments` (daftar departemen hotel)
 
 ### 2. Autentikasi & Role
-- [ ] Setup login/register (atau seed user admin manual dulu)
+- [✅] Setup login/register (atau seed user admin manual dulu)
 - [ ] Middleware/gate untuk membedakan akses `admin` vs `user`
 
 ### 3. Modul Items
