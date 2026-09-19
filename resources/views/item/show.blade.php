@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    Halaman dashboard, halo, {{ $user->name }}.
-
-    <a href="{{ route('item.index') }}">Ke halaman item</a>
+    <h1>Ini adalah halaman show. Info detail</h1>
+    <p>{{ $item->name }}</p>
+    <a href="{{ route('item.index') }}">Kembali</a>
 </body>
 </html>

@@ -136,12 +136,12 @@ transactions
 
 ### 2. Autentikasi & Role
 - [✅] Setup login/register (atau seed user admin manual dulu)
-- [ ] Middleware/gate untuk membedakan akses `admin` vs `user`
+- [✅] Middleware/gate untuk membedakan akses `admin` vs `user`
 
 ### 3. Modul Items
-- [ ] CRUD item (create, read, update, soft delete)
-- [ ] Halaman list item dengan filter/search (nama, code, kategori jika ada)
-- [ ] Validasi field wajib vs nullable
+- [✅] CRUD item (create, read, update, soft delete)
+- [] Halaman list item dengan filter/search (nama, code, kategori jika ada)
+- [] Validasi field wajib vs nullable
 
 ### 4. Modul Transactions
 - [ ] Form input transaksi masuk/keluar
@@ -170,3 +170,4 @@ transactions
 - [ ] Kategori item (`category_id`) jika daftar item makin banyak
 - [ ] Sambungkan dengan open store departement lain lalu barang yang diambil beserta data pengambilan masuk ke dalam 
       notifikasi warehouse user
+- [ ] Halaman khusus untuk inventory check
